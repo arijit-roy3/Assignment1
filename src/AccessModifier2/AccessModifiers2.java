@@ -11,9 +11,9 @@ public class AccessModifiers2 extends AccessModifiers{
 		int age=obj1.y=scanner.nextInt();
 		System.out.println("Please Enter the marks");
 		int marks =obj1.x=scanner.nextInt();
-		//obj1.checkAge(age);		
+		obj1.checkAge(age);		
 		obj1.displayName(name);
-		//obj1.checkMarks(marks);		
+		obj1.checkMarks(marks);		
 		
 		}
 }
